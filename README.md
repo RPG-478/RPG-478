@@ -44,3 +44,12 @@
 - [自作TCPサーバーでGitHub Copilotをマルチエージェント化した話](https://zenn.dev/midomo/articles/40cd64af2d617a)
 - [RAGの知識ベースを自然淘汰で進化させた](https://zenn.dev/midomo/articles/14ca85959aa1cc)
 <!-- ZENN-ARTICLES:END -->
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="output/github-contribution-grid-snake.svg" />
+</picture>
+
