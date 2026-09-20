@@ -20,8 +20,22 @@
 
 ## 🛠 Tech Stack
 
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=github&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord.py-5865F2?style=flat&logo=discord&logoColor=white)
+**🤖 コードを書いてるのはこの子たち**
+
+![OpenAI Codex](https://img.shields.io/badge/Codex%20CLI-000000?logo=openai&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?logo=chatgpt&logoColor=white)
+![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-137CEF?logo=googleaistudio&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6196?logo=deepseek&logoColor=white)
+![GLM](https://img.shields.io/badge/GLM-3859FF?logo=zai&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-000000?logo=openrouter&logoColor=white)
+
+**実際に触ってるやつ**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Discord.py](https://img.shields.io/badge/Discord.py-5865F2?logo=discord&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?logo=oracle&logoColor=white)
+![TiDB](https://img.shields.io/badge/TiDB-DC150B?logo=tidb&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
 ---
 
