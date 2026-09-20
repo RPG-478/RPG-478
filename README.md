@@ -25,6 +25,13 @@
 
 ---
 
+## 🏆 Awards & Mentions
+
+- 🥇 Zenn「GitHub Copilot 活用選手権」**特別賞** — [GitHub Copilot のマルチエージェントを「寝てても動く」状態にした](https://zenn.dev/midomo/articles/16619764f474cb)
+- 🌍 海外OSS [leeguooooo/chatgpt-use](https://github.com/leeguooooo/chatgpt-use) の設計比較表に [codex-chatgpt-bridge](https://github.com/RPG-478/codex-chatgpt-bridge) が紹介 — *"the planner-executor split done right"*
+
+---
+
 ## ✍️ Latest Articles
 
 <!-- ZENN-ARTICLES:START -->
