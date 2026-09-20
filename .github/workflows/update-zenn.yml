@@ -1,0 +1,34 @@
+name: Update Zenn articles
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # daily 02:00 UTC = 11:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-zenn
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate article list
+        run: python3 .github/scripts/update_zenn.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README.md is up to date"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update Zenn article list"
+            git push
+          fi

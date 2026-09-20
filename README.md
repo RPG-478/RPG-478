@@ -12,8 +12,9 @@
 
 | Project | Description |
 |---|---|
-| [Darwin-RAG](https://github.com/RPG-478/Darwin-RAG) | 進化的アルゴリズムで知識ベースを自動更新する自己進化型 RAG |
-| [agent_sync](https://github.com/RPG-478/agent_sync) | 複数タブの GitHub Copilot を TCP で同期・マルチエージェント化するツール |
+| [latency-kills](https://github.com/RPG-478/latency-kills) | クラウドLLMがストリーミング視界でViZDoomを実況プレイ — 35Hz・ワントークンアクション・ローカルエイムなし |
+| [codex-chatgpt-bridge](https://github.com/RPG-478/codex-chatgpt-bridge) | Codex CLIからChatGPT Webへレビュー・リサーチ・計画を委託するローカルブリッジ |
+| [agent_sync](https://github.com/RPG-478/agent_sync) | 複数タブのGitHub CopilotをTCPで同期してマルチエージェント化するツール |
 
 ---
 
@@ -24,15 +25,15 @@
 
 ---
 
-
----
-
 ## ✍️ Latest Articles
 
 <!-- ZENN-ARTICLES:START -->
+- [Oracle無料枠で3Dメイドを動かしたら壊滅的だったので、iPhoneをGPUにした](https://zenn.dev/midomo/articles/d08e9ba9976a99)
+- [RAGは本当に「外部知識」が詳しいほど強いのか？TiDBで試して考えてみた](https://zenn.dev/midomo/articles/e0ee255ae3e8fc)
+- [Agentの同じ失敗を防ぐために、TiDBでコンテキスト圧縮前の判断を復元する](https://zenn.dev/midomo/articles/53eb87e0a52a32)
+- [Discord Botを生成する自作AIエージェントを、コンパイラパイプラインにした](https://zenn.dev/midomo/articles/872df6891afcc5)
 - [Discord BotをPCなし・サーバーなし・お金なしでも作る方法](https://zenn.dev/midomo/articles/5f5e8425945959)
 - [GitHub Copilot のマルチエージェントを「寝てても動く」状態にした](https://zenn.dev/midomo/articles/16619764f474cb)
 - [自作TCPサーバーでGitHub Copilotをマルチエージェント化した話](https://zenn.dev/midomo/articles/40cd64af2d617a)
 - [RAGの知識ベースを自然淘汰で進化させた](https://zenn.dev/midomo/articles/14ca85959aa1cc)
 <!-- ZENN-ARTICLES:END -->
-
