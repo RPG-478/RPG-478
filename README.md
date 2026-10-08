@@ -16,6 +16,16 @@
 | [codex-chatgpt-bridge](https://github.com/RPG-478/codex-chatgpt-bridge) | Codex CLIからChatGPT Webへレビュー・リサーチ・計画を委託するローカルブリッジ |
 | [agent_sync](https://github.com/RPG-478/agent_sync) | 複数タブのGitHub CopilotをTCPで同期してマルチエージェント化するツール |
 
+### 🗺️ Project Map
+
+公開プロジェクトを地図で見る。画像をクリックすると、検索や拡大ができます。
+
+<p align="center">
+  <a href="https://nekomario28.github.io/interactive-project-map/u/?username=RPG-478&amp;style=galaxy-systems">
+    <img width="740" src="https://raw.githubusercontent.com/RPG-478/RPG-478/HEAD/project-map/galaxy.svg" alt="RPG-478 の公開プロジェクトマップ" />
+  </a>
+</p>
+
 ---
 
 ## 🛠 Tech Stack
