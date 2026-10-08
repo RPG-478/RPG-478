@@ -1,0 +1,52 @@
+name: Update project map
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 3 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    permissions:
+      contents: read
+    uses: nekomario28/interactive-project-map/.github/workflows/generate-project-map.yml@9b062afdf8e7a0ff64c4a58d5e1c398ab7626704
+    with:
+      theme: dark
+      style: galaxy-systems
+      max_repos: "100"
+      forks: false
+      archived: false
+      contributed: false
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Download generated files
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: project-map-generated
+          path: project-map
+
+      - name: Commit only when the generated map changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- project-map/galaxy.svg project-map/graph.json
+          if git diff --cached --quiet; then
+            echo "Project map is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update project map"
+          git push
