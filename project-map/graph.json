@@ -1,0 +1,798 @@
+{
+  "owner": "rpg-478",
+  "generatedAt": "2026-10-08T10:58:00.277Z",
+  "repositoryCount": 6,
+  "groupCount": 2,
+  "nodes": [
+    {
+      "id": "user:rpg-478",
+      "label": "rpg-478",
+      "type": "owner",
+      "url": "https://github.com/rpg-478"
+    },
+    {
+      "id": "group:ai-ml",
+      "label": "AI & Machine Learning",
+      "type": "group",
+      "repositoryCount": 3
+    },
+    {
+      "id": "repository:Darwin-RAG",
+      "label": "Darwin-RAG",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/Darwin-RAG",
+      "description": "Self-evolving RAG that automatically adapts knowledge base using evolutionary algorithms",
+      "language": "Python",
+      "topics": [
+        "knowledge-base",
+        "llm",
+        "python",
+        "rag",
+        "self-evolving"
+      ],
+      "stars": 4,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-03-20T14:28:06Z",
+      "updatedAt": "2026-09-20T11:39:00Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI & Machine Learning",
+      "classification": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI / Machine Learning",
+        "secondaryTags": [
+          "llm"
+        ],
+        "confidence": 0.927,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "topic",
+            "value": "llm",
+            "weight": 1
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "ai",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "llm",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "coursework",
+            "source": "readme",
+            "value": "学習",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "api",
+            "weight": 0.7
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI & Machine Learning",
+        "secondaryTags": [
+          "artifact:application"
+        ],
+        "confidence": 0.986,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "P1 exact taxonomy category ai-ml",
+            "weight": 0.986
+          }
+        ]
+      }
+    },
+    {
+      "id": "repository:latency-kills",
+      "label": "latency-kills",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/latency-kills",
+      "description": "A Cloud LLM plays unpaused 35 Hz ViZDoom through streamed one-token actions and staggered requests—with no local aim assist.",
+      "language": "Python",
+      "topics": [
+        "action-staleness",
+        "ai-agents",
+        "game-agents",
+        "latency",
+        "llm",
+        "openrouter",
+        "real-time-ai",
+        "real-time-control",
+        "vizdoom"
+      ],
+      "stars": 3,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-18T14:41:42Z",
+      "updatedAt": "2026-08-22T15:00:24Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI & Machine Learning",
+      "classification": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI / Machine Learning",
+        "secondaryTags": [
+          "llm"
+        ],
+        "confidence": 0.908,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "topic",
+            "value": "llm",
+            "weight": 1
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "llm",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "llm",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "torch",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "vla",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "coursework",
+            "source": "readme",
+            "value": "学習",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "hardware",
+            "source": "readme",
+            "value": "sensor",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "hardware",
+            "source": "readme",
+            "value": "serial",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "robotics",
+            "source": "readme",
+            "value": "robotics",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "api",
+            "weight": 0.7
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI & Machine Learning",
+        "secondaryTags": [
+          "artifact:model",
+          "platform:cli"
+        ],
+        "confidence": 0.99,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "P1 exact taxonomy category ai-ml",
+            "weight": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "repository:agent_sync",
+      "label": "agent_sync",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/agent_sync",
+      "description": "複数タブのGitHub Copilotが同期して動くようになります。",
+      "language": "Python",
+      "topics": [
+        "github-copilot",
+        "llm",
+        "python"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-04-01T08:09:22Z",
+      "updatedAt": "2026-04-15T05:40:30Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI & Machine Learning",
+      "classification": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI / Machine Learning",
+        "secondaryTags": [
+          "llm"
+        ],
+        "confidence": 0.656,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "topic",
+            "value": "llm",
+            "weight": 1
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI & Machine Learning",
+        "secondaryTags": [
+          "artifact:service",
+          "platform:cli",
+          "platform:server"
+        ],
+        "confidence": 0.953,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "P1 exact taxonomy category ai-ml",
+            "weight": 0.953
+          }
+        ]
+      }
+    },
+    {
+      "id": "group:applications-services",
+      "label": "Applications & Services",
+      "type": "group",
+      "repositoryCount": 3
+    },
+    {
+      "id": "repository:codex-chatgpt-bridge",
+      "label": "codex-chatgpt-bridge",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/codex-chatgpt-bridge",
+      "description": "Local CLI/MCP bridge that lets Codex delegate compact review, research, and planning tasks to ChatGPT Web.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "chatgpt",
+        "codex",
+        "mcp",
+        "playwright"
+      ],
+      "stars": 5,
+      "forks": 1,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-06-01T21:33:15Z",
+      "updatedAt": "2026-10-07T23:01:59Z",
+      "groupId": "applications-services",
+      "groupLabel": "Applications & Services",
+      "classification": {
+        "categoryId": "web-apps",
+        "categoryLabel": "Web / Apps",
+        "secondaryTags": [],
+        "confidence": 1,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "web-apps",
+            "source": "description",
+            "value": "web",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "api",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "backend",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "web",
+            "weight": 0.7
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "applications-services",
+        "categoryLabel": "Applications & Services",
+        "secondaryTags": [
+          "artifact:dataset",
+          "platform:web",
+          "platform:cli",
+          "platform:server"
+        ],
+        "confidence": 0.9,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "applications-services",
+            "source": "description",
+            "value": "P1 exact taxonomy category applications-services",
+            "weight": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "id": "repository:Archy",
+      "label": "Archy",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/Archy",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-02-04T12:06:26Z",
+      "updatedAt": "2026-05-09T06:22:11Z",
+      "groupId": "applications-services",
+      "groupLabel": "Applications & Services",
+      "classification": {
+        "categoryId": "web-apps",
+        "categoryLabel": "Web / Apps",
+        "secondaryTags": [],
+        "confidence": 0.85,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "ai",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "app",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "backend",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "react",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "web",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "web-app",
+            "weight": 0.7
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "applications-services",
+        "categoryLabel": "Applications & Services",
+        "secondaryTags": [
+          "artifact:service",
+          "platform:web",
+          "platform:server"
+        ],
+        "confidence": 0.923,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "applications-services",
+            "source": "description",
+            "value": "P1 exact taxonomy category applications-services",
+            "weight": 0.923
+          }
+        ]
+      }
+    },
+    {
+      "id": "repository:RPG-478.github.io",
+      "label": "RPG-478.github.io",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/RPG-478.github.io",
+      "description": "スクロールできるだけのサイトです",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-02-11T05:43:26Z",
+      "updatedAt": "2026-02-13T23:18:34Z",
+      "groupId": "applications-services",
+      "groupLabel": "Applications & Services",
+      "classification": {
+        "categoryId": "web-apps",
+        "categoryLabel": "Web / Apps",
+        "secondaryTags": [
+          "react"
+        ],
+        "confidence": 0.625,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "web-apps",
+            "source": "dependency",
+            "value": "react",
+            "weight": 0.9
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "applications-services",
+        "categoryLabel": "Applications & Services",
+        "secondaryTags": [
+          "artifact:application",
+          "platform:web"
+        ],
+        "confidence": 0.9,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "applications-services",
+            "source": "description",
+            "value": "P1 exact taxonomy category applications-services",
+            "weight": 0.9
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "user:rpg-478",
+      "target": "group:ai-ml",
+      "type": "ownership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:Darwin-RAG",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:latency-kills",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:agent_sync",
+      "type": "membership"
+    },
+    {
+      "source": "user:rpg-478",
+      "target": "group:applications-services",
+      "type": "ownership"
+    },
+    {
+      "source": "group:applications-services",
+      "target": "repository:codex-chatgpt-bridge",
+      "type": "membership"
+    },
+    {
+      "source": "group:applications-services",
+      "target": "repository:Archy",
+      "type": "membership"
+    },
+    {
+      "source": "group:applications-services",
+      "target": "repository:RPG-478.github.io",
+      "type": "membership"
+    }
+  ],
+  "classificationVersion": 1,
+  "taxonomy": {
+    "schemaVersion": 1,
+    "corpusFingerprint": "e85bd4bf79634c4e2e21f6b24565e14e89c52e0e2d8a3c9cd0ece56e4b9c63f4",
+    "repositories": [
+      {
+        "repoId": 1149690673,
+        "name": "Archy",
+        "contentHash": "484d69664335dfbe55106714d8f10fc489ec64384167599ba28cc0f6550e6039"
+      },
+      {
+        "repoId": 1155096249,
+        "name": "RPG-478.github.io",
+        "contentHash": "c0b2c45b9227d12cc31a1f62f0fa738c1c17767dce8e9cfeee625f267205d38b"
+      },
+      {
+        "repoId": 1187266233,
+        "name": "Darwin-RAG",
+        "contentHash": "95165a3b8db154df611c30e0e5ac987e1f348366ff81875d7cdc69cbb0c6d6d1"
+      },
+      {
+        "repoId": 1198216267,
+        "name": "agent_sync",
+        "contentHash": "2c74785fd2b87e47adee568df9243c57ef6779309a97c7cdf6651714fbd18933"
+      },
+      {
+        "repoId": 1256528329,
+        "name": "codex-chatgpt-bridge",
+        "contentHash": "f927f1a8ed737c5e93fb1266a21c97adb96ed1e7664b9643f7fad14d9fcd788d"
+      },
+      {
+        "repoId": 1338514368,
+        "name": "latency-kills",
+        "contentHash": "7a11e2c2a77f3b3ab4a89aacafca698c19fd77e1c85f874f3a34e9b810c45b7e"
+      }
+    ],
+    "categories": [
+      {
+        "id": "ai-ml",
+        "label": "AI & Machine Learning",
+        "description": "Machine learning, generative AI, computer vision, NLP, agents, model training, inference, and AI systems.",
+        "aliases": [
+          "artificial intelligence",
+          "machine learning",
+          "deep learning",
+          "generative ai",
+          "computer vision",
+          "nlp",
+          "llm"
+        ]
+      },
+      {
+        "id": "data-analytics",
+        "label": "Data & Analytics",
+        "description": "Data processing, databases, analytics, ETL, search, information retrieval, metrics, and data engineering.",
+        "aliases": [
+          "data engineering",
+          "analytics",
+          "database",
+          "etl",
+          "search",
+          "information retrieval"
+        ]
+      },
+      {
+        "id": "visualization-knowledge",
+        "label": "Visualization & Knowledge",
+        "description": "Information visualization, project maps, knowledge maps, graph exploration, dashboards, visual analytics, and structured knowledge browsing.",
+        "aliases": [
+          "data visualization",
+          "information visualization",
+          "knowledge graph",
+          "project map",
+          "graph visualization",
+          "visual analytics"
+        ]
+      },
+      {
+        "id": "applications-services",
+        "label": "Applications & Services",
+        "description": "End-user applications and network services whose primary purpose does not fit a more specific standard domain.",
+        "aliases": [
+          "application",
+          "app",
+          "service",
+          "web app",
+          "desktop app",
+          "mobile app",
+          "saas"
+        ]
+      },
+      {
+        "id": "developer-tools",
+        "label": "Developer Tools",
+        "description": "Tools primarily used to build, test, debug, package, inspect, automate, or maintain software and developer workflows.",
+        "aliases": [
+          "developer tool",
+          "build tool",
+          "testing tool",
+          "debugger",
+          "code generation",
+          "devtool",
+          "sdk"
+        ]
+      },
+      {
+        "id": "systems-infrastructure",
+        "label": "Systems & Infrastructure",
+        "description": "Operating systems, runtimes, containers, cloud infrastructure, storage, observability, deployment, and low-level system software.",
+        "aliases": [
+          "systems",
+          "infrastructure",
+          "operating system",
+          "container",
+          "cloud",
+          "runtime",
+          "storage",
+          "observability"
+        ]
+      },
+      {
+        "id": "security-privacy",
+        "label": "Security & Privacy",
+        "description": "Security, privacy, authentication, authorization, cryptography, abuse prevention, malware analysis, and defensive tooling.",
+        "aliases": [
+          "security",
+          "privacy",
+          "authentication",
+          "cryptography",
+          "anti cheat",
+          "malware",
+          "authorization"
+        ]
+      },
+      {
+        "id": "networking-distributed",
+        "label": "Networking & Distributed Systems",
+        "description": "Networking, protocols, distributed systems, messaging, peer-to-peer systems, transport, RPC, and network services infrastructure.",
+        "aliases": [
+          "networking",
+          "distributed systems",
+          "protocol",
+          "rpc",
+          "peer to peer",
+          "messaging",
+          "transport"
+        ]
+      },
+      {
+        "id": "hardware-embedded",
+        "label": "Hardware & Embedded",
+        "description": "Embedded systems, firmware, microcontrollers, device drivers, hardware integration, electronics, sensors, and IoT devices.",
+        "aliases": [
+          "hardware",
+          "embedded",
+          "firmware",
+          "microcontroller",
+          "device integration",
+          "iot",
+          "sensor"
+        ]
+      },
+      {
+        "id": "robotics-automation",
+        "label": "Robotics & Automation",
+        "description": "Robotics, simulation, autonomous systems, manipulation, navigation, control, industrial automation, and robot middleware.",
+        "aliases": [
+          "robotics",
+          "robot",
+          "automation",
+          "ros",
+          "ros2",
+          "gazebo",
+          "navigation",
+          "manipulation"
+        ]
+      },
+      {
+        "id": "game-development",
+        "label": "Game Development",
+        "description": "Games, game engines, gameplay systems, interactive entertainment, simulations designed as games, and game-development tooling tightly coupled to game creation.",
+        "aliases": [
+          "game development",
+          "game engine",
+          "gameplay",
+          "pygame",
+          "unity",
+          "unreal",
+          "godot"
+        ]
+      },
+      {
+        "id": "game-modding",
+        "label": "Game Modding",
+        "description": "Mods, mod loaders, modding libraries, server gameplay extensions, compatibility layers, and tooling whose primary purpose is extending an existing game.",
+        "aliases": [
+          "game mod",
+          "modding",
+          "minecraft mod",
+          "neoforge",
+          "forge",
+          "fabric",
+          "mod loader"
+        ]
+      },
+      {
+        "id": "science-engineering",
+        "label": "Science & Engineering",
+        "description": "Scientific computing, engineering analysis, simulation outside game/robotics domains, mathematics, research software, and domain science tools.",
+        "aliases": [
+          "scientific computing",
+          "engineering",
+          "simulation",
+          "mathematics",
+          "research software",
+          "numerical"
+        ]
+      },
+      {
+        "id": "education-learning",
+        "label": "Education & Learning",
+        "description": "Educational software, tutorials, coursework, learning resources, teaching tools, exercises, and academic learning projects.",
+        "aliases": [
+          "education",
+          "learning",
+          "coursework",
+          "tutorial",
+          "teaching",
+          "exercise",
+          "assignment"
+        ]
+      },
+      {
+        "id": "media-creative",
+        "label": "Media & Creative",
+        "description": "Audio, video, graphics, image creation, design, animation, creative coding, publishing, and media-production software.",
+        "aliases": [
+          "media",
+          "audio",
+          "video",
+          "graphics",
+          "design",
+          "animation",
+          "creative coding"
+        ]
+      },
+      {
+        "id": "business-productivity",
+        "label": "Business & Productivity",
+        "description": "Business applications, productivity workflows, collaboration, commerce operations, personal organization, and office-oriented tools.",
+        "aliases": [
+          "business",
+          "productivity",
+          "workflow",
+          "collaboration",
+          "commerce",
+          "office",
+          "organization"
+        ]
+      }
+    ],
+    "source": {
+      "providerId": "standard",
+      "model": "ipm-standard-v1"
+    }
+  },
+  "taxonomyAssignmentVersion": 1
+}
