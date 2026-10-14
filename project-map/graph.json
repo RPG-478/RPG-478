@@ -1,7 +1,7 @@
 {
   "owner": "rpg-478",
-  "generatedAt": "2026-10-08T10:58:00.277Z",
-  "repositoryCount": 6,
+  "generatedAt": "2026-10-14T03:47:43.653Z",
+  "repositoryCount": 7,
   "groupCount": 2,
   "nodes": [
     {
@@ -14,7 +14,7 @@
       "id": "group:ai-ml",
       "label": "AI & Machine Learning",
       "type": "group",
-      "repositoryCount": 3
+      "repositoryCount": 4
     },
     {
       "id": "repository:Darwin-RAG",
@@ -209,6 +209,124 @@
             "source": "description",
             "value": "P1 exact taxonomy category ai-ml",
             "weight": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "repository:harklet",
+      "label": "harklet",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/harklet",
+      "description": "Personal AI assistant for Discord with memory, Home dashboard, projects, and isolated browser tasks",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "browser-automation",
+        "discord-bot",
+        "discord-js",
+        "javascript",
+        "llm",
+        "openrouter",
+        "quicksand"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-10-08T00:32:20Z",
+      "updatedAt": "2026-10-14T03:25:21Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI & Machine Learning",
+      "classification": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI / Machine Learning",
+        "secondaryTags": [
+          "llm"
+        ],
+        "confidence": 0.816,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "topic",
+            "value": "llm",
+            "weight": 1
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "ai",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "ai",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "llm",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "ai-ml",
+            "source": "readme",
+            "value": "vision",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "hardware",
+            "source": "readme",
+            "value": "embedded",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "api",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "backend",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "web",
+            "weight": 0.7
+          },
+          {
+            "categoryId": "web-apps",
+            "source": "readme",
+            "value": "website",
+            "weight": 0.7
+          }
+        ]
+      },
+      "taxonomyAssignment": {
+        "categoryId": "ai-ml",
+        "categoryLabel": "AI & Machine Learning",
+        "secondaryTags": [
+          "artifact:model",
+          "platform:web",
+          "platform:server",
+          "platform:embedded"
+        ],
+        "confidence": 0.981,
+        "method": "deterministic",
+        "evidence": [
+          {
+            "categoryId": "ai-ml",
+            "source": "description",
+            "value": "P1 exact taxonomy category ai-ml",
+            "weight": 0.981
           }
         ]
       }
@@ -504,6 +622,11 @@
     },
     {
       "source": "group:ai-ml",
+      "target": "repository:harklet",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
       "target": "repository:agent_sync",
       "type": "membership"
     },
@@ -531,7 +654,7 @@
   "classificationVersion": 1,
   "taxonomy": {
     "schemaVersion": 1,
-    "corpusFingerprint": "e85bd4bf79634c4e2e21f6b24565e14e89c52e0e2d8a3c9cd0ece56e4b9c63f4",
+    "corpusFingerprint": "d2d4cb3e90e85a00b857413e92c737c3f36421981f5ce1cac12229360c3719e3",
     "repositories": [
       {
         "repoId": 1149690673,
@@ -562,6 +685,11 @@
         "repoId": 1338514368,
         "name": "latency-kills",
         "contentHash": "7a11e2c2a77f3b3ab4a89aacafca698c19fd77e1c85f874f3a34e9b810c45b7e"
+      },
+      {
+        "repoId": 1409524235,
+        "name": "harklet",
+        "contentHash": "1cf7f03bda165d2d69ec953defa1fbbedebd927c67f84dbc211279801c7a6f78"
       }
     ],
     "categories": [
