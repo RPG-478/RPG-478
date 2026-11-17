@@ -1,8 +1,8 @@
 {
   "owner": "rpg-478",
-  "generatedAt": "2026-10-15T03:47:56.730Z",
-  "repositoryCount": 7,
-  "groupCount": 2,
+  "generatedAt": "2026-11-17T03:38:48.185Z",
+  "repositoryCount": 8,
+  "groupCount": 3,
   "nodes": [
     {
       "id": "user:rpg-478",
@@ -602,6 +602,37 @@
           }
         ]
       }
+    },
+    {
+      "id": "group:uncategorized",
+      "label": "Uncategorized",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:daytona-event",
+      "label": "daytona-event",
+      "type": "repository",
+      "url": "https://github.com/RPG-478/daytona-event",
+      "description": "daytonaのイベント",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-11-15T05:41:55Z",
+      "updatedAt": "2026-11-15T07:33:32Z",
+      "groupId": "uncategorized",
+      "groupLabel": "Uncategorized",
+      "classification": {
+        "categoryId": "uncategorized",
+        "categoryLabel": "Uncategorized",
+        "secondaryTags": [],
+        "confidence": 0,
+        "method": "deterministic",
+        "evidence": []
+      }
     }
   ],
   "edges": [
@@ -649,12 +680,22 @@
       "source": "group:applications-services",
       "target": "repository:RPG-478.github.io",
       "type": "membership"
+    },
+    {
+      "source": "user:rpg-478",
+      "target": "group:uncategorized",
+      "type": "ownership"
+    },
+    {
+      "source": "group:uncategorized",
+      "target": "repository:daytona-event",
+      "type": "membership"
     }
   ],
   "classificationVersion": 1,
   "taxonomy": {
     "schemaVersion": 1,
-    "corpusFingerprint": "d2d4cb3e90e85a00b857413e92c737c3f36421981f5ce1cac12229360c3719e3",
+    "corpusFingerprint": "e8483709cde39b2ca9e05eea1c0a6e9617233f11a3a234fbcd243b7258e22027",
     "repositories": [
       {
         "repoId": 1149690673,
@@ -690,6 +731,11 @@
         "repoId": 1409524235,
         "name": "harklet",
         "contentHash": "1cf7f03bda165d2d69ec953defa1fbbedebd927c67f84dbc211279801c7a6f78"
+      },
+      {
+        "repoId": 1458483894,
+        "name": "daytona-event",
+        "contentHash": "4abb658ad952cf62e53e8732d735d1e2c95cddc5981dfe8c9258715c439e73f7"
       }
     ],
     "categories": [
